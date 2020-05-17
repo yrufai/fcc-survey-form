@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href=" https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"
+    />
+  </head>
+  <body>
+    <main>
+      <h1 id="title">Survey form</h1>
+      <div id="main-div">
+        <h4 id="description">
+          let us know how we can improve freeCodeCamp
+        </h4>
+
+        <form id="survey-form">
+          <div class="container">
+            <label>*name: </label>
+            <div class="area">
+              <input id="name" type="text" placeholder=" Fullname" />
+            </div>
+          </div>
+          <div class="container">
+            <label>*Email</label>
+            <div class="area">
+              <input id="email" type="email" placeholder=" Email" />
+            </div>
+          </div>
+          <div class="container">
+            <label>Age(optional)</label>
+            <div class="area">
+              <input
+                id="number"
+                type="number"
+                min="10"
+                max="99"
+                placeholder=" Age"
+              />
+            </div>
+          </div>
+          <div class="container">
+            <label>Which option best describes your current role?</label>
+            <div class="area">
+              <select id="drop-down">
+                <option value="">Student</option>
+                <option value="">Full Time Job</option>
+                <option value="">Full Time Learner</option>
+                <option value="">Rather NOt Say</option>
+                <option value="">Other</option>
+              </select>
+            </div>
+          </div>
+          <div class="container">
+            <label for=""
+              >How likely is that you would recommend freeCodeCamp to a
+              friend?</label
+            >
+            <div class="area">
+              <div>
+                <input type="radio" name="recommend" />
+                <label>Definitely </label>
+              </div>
+
+              <div>
+                <input type="radio" name="recommend" />
+                <label>May be</label>
+              </div>
+
+              <div>
+                <input type="radio" name="recommend" />
+                <label>Not sure </label>
+              </div>
+            </div>
+          </div>
+          <div class="container">
+            <label for="">What do you like most in FCC</label>
+            <div class="area">
+              <select name="option" id="">
+                <option>Challenges</option>
+                <option>Projects</option>
+                <option>Community </option>
+                <option>Open source</option>
+              </select>
+            </div>
+          </div>
+          <div class="container">
+            <label for="">Things that should be improved in the future</label>
+            <div class="area">
+              <span>(Check all that apply):</span>
+              <div>
+                <input
+                  type="checkbox"
+                  id="checkbox"
+                  name="Front-end Projects"
+                />
+                <label for="Front-end Projects">Front-end Projects</label>
+              </div>
+
+              <div>
+                <input
+                  type="checkbox"
+                  id="checkbox1"
+                  name="Back End Projects"
+                />
+                <label for="checkbox1">Back End Projects</label>
+              </div>
+              <div>
+                <input
+                  type="checkbox"
+                  id="checkbox2"
+                  name="Data Visualization"
+                />
+                <label for="checkbox2">Data Visualization</label>
+              </div>
+              <div>
+                <input type="checkbox" id="checkbox3" name="Challenges" />
+                <label for="checkbox3">Challenges</label>
+              </div>
+              <div>
+                <input
+                  type="checkbox"
+                  id="checkbox4"
+                  name="Open Source Community"
+                />
+                <label for="checkbox4">Open Source Community</label>
+              </div>
+            </div>
+          </div>
+          <div class="container">
+            <label for="">Any Comments or Suggestions?</label>
+            <div class="area"><input type="textarea" name="textarea" /></div>
+          </div>
+          <div>
+            <input type="submit" name="submit" value="submit" />
+          </div>
+        </form>
+      </div>
+    </main>
+    <h4>
+      <a href="https://github.com/yrufai/fcc-survey-form"
+        >Yakubu Ahmed El-rufai</a
+      >
+    </h4>
+  </body>
+</html>
