@@ -9,7 +9,8 @@ h1 {
   color: rgb(53, 50, 53);
 }
 h4 {
-  font-family: "Dancing Script", cursive;
+  /*font-family: "Dancing Script", cursive;*/
+  font-family: "Yanone Kaffeesatz", sans-serif;
   display: flex;
   justify-content: center;
   color: rgb(58, 40, 40);
